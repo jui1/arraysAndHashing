@@ -11,9 +11,9 @@ public class Sum {
                 return new int[] { map.get(complement), i };
             }
             
-            map.put(nums[i], i); // store number with its index
+            map.put(nums[i], i); 
         }
 
-        return new int[] {}; // if no solution
+        return new int[] {}; 
     }
 }
